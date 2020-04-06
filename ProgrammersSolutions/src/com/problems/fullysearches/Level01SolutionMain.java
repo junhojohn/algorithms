@@ -24,6 +24,14 @@ public class Level01SolutionMain {
 		}
 	}
 
+	/**
+	 * 작성일시: 2020.04.06 오후 11:00~12:30, 오후 7:00~7:50
+	 * 소요시간:130분
+	 * 정확성 테스트 결과: 14/14
+	 * @param participant
+	 * @param completion
+	 * @return
+	 */
     public static int[] solution(int[] answers) {
         int[] answer 			= new int[]{-1,-1,-1};
         int correctMaxCnt		= 0;
